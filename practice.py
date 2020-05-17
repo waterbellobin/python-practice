@@ -71,4 +71,59 @@
 # print("Pinee\bapple") # \b is backspace
 # print("Pine\tapple") # \t is tab
 
-1:22:17
+# arr = [10, 20, 30]
+# print(arr.index(20))
+# arr.insert(1, 15)
+# print(arr)
+# arr.append(10)
+# print(arr.count(10))
+
+# numbers = {1: "100", 2: "200", 3: "300"}
+# print(numbers[2])
+# # print(numbers[5])
+# print(numbers.get(5, "no value"))
+# del numbers[2]
+# print(numbers)
+# print(numbers.keys())
+
+# (tup, arr, dic) = ("tuple", "array", "dictionary")
+# print(tup, arr, dic)
+
+# set_1 = {1,2,3,4,5,5,5}
+# set_2 = {2,3,4}
+# print(set_1)
+# print(set_1 & set_2)
+# print(set_1 | set_2)
+
+
+# weather = input("weather?")
+# if weather == "rainy":
+#     print("umbrella")
+# else:
+#     print("nothing")
+
+# customer = "Iron man"
+# index = 5
+# while index >=1:
+#     print("{0}, your coffee is ready. {1} times left." .format(customer, index))
+#     index -= 1
+#     if index == 0:
+#         print("Your coffee is gone.")
+
+# def profile(name, age, main_lang):
+#     print("name: {0}\tage: {1}\tmain language: {2}" \
+#         .format(name, age, main_lang)) #change line
+
+# profile("Sujong", 27, "Python")
+# profile(main_lang = "Java", age = 27, name = "Sujong")
+
+##### * usage #####
+# def profile(name, age, *language):
+#     print("name: {0}\tage: {1}\t".format(name, age), end = " ") #no line change
+#     for lang in language:
+#         print(lang, end = " ")
+#     print()
+
+# profile("Sujong", 27, "Python", "C", "C++")
+
+2:59:00
