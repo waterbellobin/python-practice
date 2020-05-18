@@ -126,4 +126,77 @@
 
 # profile("Sujong", 27, "Python", "C", "C++")
 
-2:59:00
+# print("Python", "Java", "C++", sep = " vs ", end = "?")
+
+# scores = {"math": 0, "English": 50, "Programming": 100}
+# for subject, score in scores.items():
+#     print(subject.ljust(15), str(score).rjust(4), sep = ":")
+
+# for num in range(1, 21):
+#     print("number: "+ str(num).zfill(3))
+
+# answer = input("Put anything: ")  #everything is stored in "str"
+# print("The value is " + answer + ".")
+
+# print("{0: >10}".format(500))  #총 10자리에서 오른쪽 정렬
+# print("{0: >+10}".format(500))  #총 10자리에서 오른쪽 정렬, 양수 +, 음수 -
+# print("{0:_<10}".format(500))  #총 10자리에서 왼쪽 정렬, 남는 칸은 _로 채움
+
+# print("{0:,}".format(1000000000000))  #comma after 3 digits
+# print("{0:f}".format(5/3))
+# print("{0:.2f}".format(5/3))
+
+# score_file = open("scores.txt", "w", encoding = "utf8")
+# print("math: 0", file = score_file)
+# print("English: 50", file = score_file)
+# score_file.close()
+
+# score_file = open("scores.txt", "a", encoding = "utf8")
+# score_file.write("science: 100\n")
+# score_file.write("Programming: 100")
+# score_file.close()
+
+# score_file = open("scores.txt", "r", encoding = "utf8")
+# print(score_file.read())
+# score_file.close()
+
+# score_file = open("scores.txt", "r", encoding = "utf8")
+# print(score_file.readline(), end="")
+# print(score_file.readline(), end="")
+# print(score_file.readline(), end="")
+# score_file.close()
+
+# score_file = open("scores.txt", "r", encoding = "utf8")
+# while True:
+#     line = score_file.readline()
+#     if not line:
+#         break
+#     print(line, end="")
+# score_file.close()
+
+# score_file = open("scores.txt", "r", encoding = "utf8")
+# lines = score_file.readlines()
+# for line in lines:
+#     print(line, end="")
+# score_file.close()
+
+# import pickle
+# profile_file = open("profile.pickle", "wb")  # write binary
+# profile = {"name":"Sujong", "age":27, "hobby":["surfing", "skateboarding", "coding"]}
+# print(profile)
+# pickle.dump(profile, profile_file)  # store profile in profile_file
+# profile_file.close()
+
+# import pickle
+# profile_file = open("profile.pickle", "rb")  # read binary
+# profile = pickle.load(profile_file)
+# print(profile)
+# profile_file.close()
+
+# import pickle
+# with open("profile.pickle", "rb") as profile_file:
+#     print(pickle.load(profile_file))
+
+# with open("scores.txt", "r", encoding="utf8") as score_file:
+#     print(score_file.read())
+

@@ -1,0 +1,4 @@
+math: 0
+English: 50
+science: 100
+Programming: 100
