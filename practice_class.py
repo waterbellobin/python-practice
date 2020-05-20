@@ -90,5 +90,29 @@
 
 ### 다중 상속도 있음
 
-##########################################################################3
-4:10:00
+##########################################################################
+
+# SUPER
+
+# class Unit:
+#     def __init__(self):
+#         print("Unit made")
+
+# class Flyable:
+#     def __init__(self):
+#         print("Flyable made")
+
+# # class FlyableUnit(Unit, Flyable):
+# #     def __init__(self):
+# #         super().__init__() # super를 쓰려면 다중상속의 순서가 중요함
+
+# # To use both Unit and Flyable,
+
+# class FlyableUnit(Unit, Flyable):
+#     def __init__(self):
+#         Unit.__init__(self)
+#         Flyable.__init__(self)
+
+# dropship = FlyableUnit()
+
+###########################################################################
